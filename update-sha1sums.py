@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +18,7 @@
 from hashlib import sha1
 import sys
 
-device='mido'
+device='land'
 vendor='xiaomi'
 
 lines = [ line for line in open('proprietary-files.txt', 'r') ]
@@ -58,9 +57,6 @@ def update():
       # Remove existing SHA1 hash
       line = line.split('|')[0]
       filePath = line.split(':')[1] if len(line.split(':')) == 2 else line
-
-      if line.find(';') != -1:
-	filePath = line.split(';:')[0]
 
       if filePath[0] == '-':
         file = open('%s/%s' % (vendorPath, filePath[1:]), 'rb').read()
