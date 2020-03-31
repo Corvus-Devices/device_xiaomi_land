@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The Android Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -28,6 +28,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1080
 TARGET_SCREEN_WIDTH := 720
+
+# Board
+PRODUCT_BOARD_PLATFORM := msm8937
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

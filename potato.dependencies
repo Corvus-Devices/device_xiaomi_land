@@ -1,0 +1,8 @@
+[
+  {
+    "remove": "vendor_qcom_opensource_power"
+  },
+  {
+    "remove": "hardware_qcom_wlan"
+  }
+]
