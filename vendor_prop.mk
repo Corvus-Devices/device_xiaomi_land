@@ -184,11 +184,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
    persist.dbg.vt_avail_ovr=1
 
 # SurfaceFlinger
-ro.surface_flinger.protected_contents=true
-ro.surface_flinger.use_smart_90_for_video=true
-ro.surface_flinger.set_display_power_timer_ms=10000
-ro.surface_flinger.set_touch_timer_ms=5000
-ro.surface_flinger.set_idle_timer_ms=9000
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.surface_flinger.protected_contents=true \
+   ro.surface_flinger.use_smart_90_for_video=true \
+   ro.surface_flinger.set_display_power_timer_ms=10000 \
+   ro.surface_flinger.set_touch_timer_ms=5000 \
+   ro.surface_flinger.set_idle_timer_ms=9000 \
+   ro.surface_flinger.vsync_event_phase_offset_ns=4000000 \
+   ro.surface_flinger.vsync_sf_event_phase_offset_ns=800000 \0
+   ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+   debug.sf.enable_gl_backpressure=1 \
+   debug.sf.early_phase_offset_ns=1500000 \
+   debug.sf.early_app_phase_offset_ns=1500000 \
+   debug.sf.early_gl_phase_offset_ns=3000000 \
+   debug.sf.early_gl_app_phase_offset_ns=15000000
 
 # Sim Selection Fix
 persist.vendor.radio.aosp_usr_pref_sel=true
