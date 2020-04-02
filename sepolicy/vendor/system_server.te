@@ -1,2 +1,12 @@
 # vibrator
 allow system_server sysfs_vibrator:file read;
+
+# Input
+allow system_server input_file:dir r_dir_perms;
+allow system_server input_file:file r_file_perms;
+
+# RTC
+allow system_server sysfs_rtc:file r_file_perms;
+
+# Touch
+allow system_server touch_sysfs:file r_file_perms;
