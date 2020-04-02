@@ -8,7 +8,8 @@
 # as published by the Free Software Foundation.
 #
 
-#key 96  CAMERA
-#key 102   HOME
-#key 105   DPAD_LEFT
-#key 106   DPAD_RIGHT
+device.internal = 1
+
+keyboard.layout = gf3208
+keyboard.builtIn = 1
+keyboard.orientationAware = 1
