@@ -771,10 +771,6 @@ vendor/firmware/a506_zap.mdt|2945f21b47cf35bf22d8cb68e937c34ea64212c0
 vendor/firmware/a530_pfp.fw|448f9db8271fefb08348cbc50409e8e95bd93f78
 vendor/firmware/a530_pm4.fw|5741a28752355b478d455635bab008028ff7e1c6
 
-# Keylayout from stock
-usr/keylayout/gpio-keys.kl:vendor/usr/keylayout/gpio-keys.kl|0c1479791a262197d60587d40e65a7c3e4a4082e
-usr/keylayout/qpnp_pon.kl:vendor/usr/keylayout/qpnp_pon.kl|73d9e95acf3c36e5de84a3e8e043e4d6b73a04b2
-
 # Keystore - from LA.UM.8.6.r1-03400-89xx.0
 vendor/lib/hw/keystore.msm8937.so|5dfcd92567254c5912c10ef2013e222b9fe33b03
 vendor/lib64/hw/keystore.msm8937.so|265cd4d0246f5e2e80916dd1c96262be28306b31
