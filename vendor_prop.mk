@@ -82,22 +82,23 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.egl.hw=1 \
+    debug.egl.hw=0 \
+    debug.enable.sglscale=1 \
     debug.gralloc.enable_fb_ubwc=1 \
+    debug.mdpcomp.logs=0 \
     debug.sf.enable_hwc_vds=1 \
-    vendor.gralloc.enable_fb_ubwc=1 \
-    debug.sf.hw=1 \
+    debug.sf.hw=0 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.recomputecrop=0 \
+    debug.sf.enable_gl_backpressure=0 \
     dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
     persist.hwc.enable_vds=1 \
-    persist.sys.wfd.virtual=0 \
-    sdm.debug.disable_rotator_split=1 \
+    persist.hwc.mdpcomp.enable=true \
+    ro.qualcomm.cabl=0 \
+    sdm.debug.disable_skip_validate=1 \
     vendor.display.disable_skip_validate=1 \
-    sdm.perf_hint_window=50 \
-    debug.sf.hwc.canUseABC=1 \
-    debug.sf.disable_backpressure=1
+    vendor.gralloc.enable_fb_ubwc=1
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -186,12 +187,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.surface_flinger.protected_contents=true \
-   ro.surface_flinger.use_smart_90_for_video=true \
-   ro.surface_flinger.set_display_power_timer_ms=10000 \
-   ro.surface_flinger.set_touch_timer_ms=5000 \
-   ro.surface_flinger.set_idle_timer_ms=9000 \
    ro.surface_flinger.vsync_event_phase_offset_ns=4000000 \
-   ro.surface_flinger.vsync_sf_event_phase_offset_ns=800000 \0
+   ro.surface_flinger.vsync_sf_event_phase_offset_ns=800000 \
    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
    debug.sf.enable_gl_backpressure=1 \
    debug.sf.early_phase_offset_ns=1500000 \
