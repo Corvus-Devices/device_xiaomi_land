@@ -39,3 +39,6 @@ allow hal_fingerprint_land keystore_service:service_manager find;
 # For permissions checking
 binder_call(hal_fingerprint_land, system_server);
 allow hal_fingerprint_land permission_service:service_manager find;
+
+# For storage service
+allow hal_fingerprint_land sdcardfs:file { append getattr };
