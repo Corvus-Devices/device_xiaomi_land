@@ -1,8 +1,17 @@
 [
   {
-    "remove": "vendor_qcom_opensource_power"
+    "repository" : "device_xiaomi_land",
+    "target_path" : "device/xiaomi/land",
+    "branch" : "croquette-release"
   },
   {
-    "remove": "hardware_qcom_wlan"
+    "repository" : "vendor_xiaomi_land",
+    "target_path" : "vendor/xiaomi/land",
+    "branch" : "croquette-release"
+  },
+  {
+    "repository" : "kernel_xiaomi_msm8937",
+    "target_path" : "kernel/xiaomi/msm8937",
+    "branch" : "croquette-release"
   }
 ]
