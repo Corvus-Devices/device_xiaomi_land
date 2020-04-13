@@ -197,7 +197,7 @@ vendor/lib/libtrueportrait.so|3bf2b5918896172b08cf2e2017c6665a51c1ebc7
 vendor/lib/libubifocus.so|833a305c780b2e7e338323c5ba27cb042f5cc3ed
 
 # Camera - from prada (Redmi 4)
-vendor/lib/libllvd_smore.so|582739377d89d73fca85364f714c4e577a59ea82 
+vendor/lib/libllvd_smore.so|582739377d89d73fca85364f714c4e577a59ea82
 vendor/lib/libllvd_sw_tnr.so|fcdcf57426014ff9d29f394ada26a6fd830dc6e3
 vendor/lib/libmmcamera_sw_tnr.so|6b20dab49ea83f84afed555d9b60595a4c380e16
 
@@ -508,9 +508,9 @@ lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so|f7c90fd1d6a
 vendor/bin/hvdcp_opti|4d2b255d60428363d2acf73763b6031f292bef4c
 
 # CNE - from LA.UM.8.6.r1-04000-89xx.0
-etc/cne/Nexus/ATT/ATT_profiles.xml|a0039cb3a4c5a4ca1adf897904b61c91e32d06f7
-etc/cne/Nexus/ROW/ROW_profiles.xml|e3907ff71cbbe0f1073ec1bf0223d26c8282aa35
-etc/cne/Nexus/VZW/VZW_profiles.xml|0d35b3266ea656d8868ae8f5d7e938f4859e9b0a
+etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
+etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
+etc/cne/Nexus/VZW/VZW_profiles.xml|0f63b632e3a3f114def7aeadaabd13851c8ceec5
 product/lib64/com.quicinc.cne.api@1.0.so|06764410022518f75a8e7fa1de35b7577cdbe8f9
 product/lib64/com.quicinc.cne.api@1.1.so|8940ad6defe4ffba387a259a698c2def51f1d5fa
 product/lib64/com.quicinc.cne.constants@1.0.so|e2f9123a013c2c116b02a1e057870f885808f654
@@ -622,19 +622,19 @@ vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|75335443a33a06a03ee
 vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 
 # Fingerprint - from stock patched
-bin/gx_fpcmd:vendor/bin/gx_fpcmd|490028aae2ebb9f8b6fb176360104945282226dc 
-bin/gx_fpd:vendor/bin/gx_fpd|a4e071d34e46d403a79e8f8fe51d9be051cac9dc 
-lib/hw/fingerprint.default.so:vendor/lib/hw/fingerprint.msm8937.so|f91241d131fab2a4b9272fe8e0825b9bcddb3221 
-lib/libcom_fingerprints_service.so:vendor/lib/libcom_fingerprints_service.so|580b1fc694003651c05961c8b3f8dd4dff698ab9 
-lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8937.so|5ca617bf4ca6899570491c3725cf40b0896dc6c0 
-lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|c66aa3eafd9dd208fb81529b8d63d8a00e80c2d6 
-lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so|63e1a095a6688137573b0b2d3503019497e0bb4b 
-lib64/libcom_fingerprints_service.so:vendor/lib64/libcom_fingerprints_service.so|c9166911d157260b12610a2b2800585e984fbf5a 
-lib64/libfp_client.so:vendor/lib64/libfp_client.so|c74fac2826f1ef76c32f7bb532c21cfd7bc3c852 
-lib64/libfpnav.so:vendor/lib64/libfpnav.so|588301735456b31b09aa0779a7f46481056868dd 
-lib64/libfpservice.so:vendor/lib64/libfpservice.so|7bfd1abd31551833079e6ffe3138fa9faf9e9040 
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.land|cf73241facae5e4a7ad092f2cda0f8e00c2f5bd9 
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.land.rc|6e8a32a9f68a3aea5ca310ba0f645763db899a0c
+bin/gx_fpcmd:vendor/bin/gx_fpcmd|490028aae2ebb9f8b6fb176360104945282226dc
+bin/gx_fpd:vendor/bin/gx_fpd|a4e071d34e46d403a79e8f8fe51d9be051cac9dc
+lib/hw/fingerprint.default.so:vendor/lib/hw/fingerprint.msm8937.so|f91241d131fab2a4b9272fe8e0825b9bcddb3221
+lib/libcom_fingerprints_service.so:vendor/lib/libcom_fingerprints_service.so|580b1fc694003651c05961c8b3f8dd4dff698ab9
+lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8937.so|5ca617bf4ca6899570491c3725cf40b0896dc6c0
+lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so|c66aa3eafd9dd208fb81529b8d63d8a00e80c2d6
+lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so|63e1a095a6688137573b0b2d3503019497e0bb4b
+lib64/libcom_fingerprints_service.so:vendor/lib64/libcom_fingerprints_service.so|c9166911d157260b12610a2b2800585e984fbf5a
+lib64/libfp_client.so:vendor/lib64/libfp_client.so|c74fac2826f1ef76c32f7bb532c21cfd7bc3c852
+lib64/libfpnav.so:vendor/lib64/libfpnav.so|588301735456b31b09aa0779a7f46481056868dd
+lib64/libfpservice.so:vendor/lib64/libfpservice.so|7bfd1abd31551833079e6ffe3138fa9faf9e9040
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.land|cf73241facae5e4a7ad092f2cda0f8e00c2f5bd9
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.land.rc|db6f25e70a9dcd7d599e2b0fd297f941bb4a61ed
 vendor/lib64/libbindergx.so|eb676b92d13a7835aaab309d5c692151993e016f
 
 # FM Radio - from LA.UM.8.6.r1-04000-89xx.0
@@ -734,7 +734,7 @@ vendor/lib64/librs_adreno.so|5ec4bcbf396d1e2ed97201e84562c410dc1f52d4
 vendor/lib64/librs_adreno_sha1.so|9073bfded085888bd49a80bdd96ca80bc5d5b23a
 
 # Graphics (Postprocessing) - from LA.UM.8.6.r1-04000-89xx.0
-etc/permissions/com.qti.snapdragon.sdk.display.xml|79a36c560f8cdbfeca03911fefc282bda25b2322
+etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 framework/com.qti.snapdragon.sdk.display.jar|495d45dd84a61e873a3d1176ab7741826e60d7f1
 vendor/bin/hw/vendor.display.color@1.0-service|dd461fbbbdc7175b8e1e37eba19bc1c48111b5b6
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|a25c2cc8a0498b8f3a08770b97e49b5545868eca
@@ -837,7 +837,7 @@ vendor/lib/vendor.qti.hardware.perf@2.0.so|71592601eed5e022f4979293d68deb98e688a
 
 # Perf (configs) - from LA.UM.8.6.r1-04000-89xx.0
 vendor/etc/perf/commonresourceconfigs.xml|42005b8a9ec8a527d22800e3aaa9215e6d58c8a9
-vendor/etc/perf/perfboostsconfig.xml|1c120821b2fe9b3ebf9d00b7bc8c0a374c2918d2
+vendor/etc/perf/perfboostsconfig.xml|b9572b0586d7e9242d7c3df026619e09f3985424
 vendor/etc/perf/perfconfigstore.xml|dfa3a78fd24cba4b870a3cd04d657cc9962c8331
 vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
 vendor/etc/perf/targetresourceconfigs.xml|d9f9815764725df55e748bf4af4829e609dac853
@@ -927,7 +927,7 @@ etc/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn:vendor/firmware/modem_config
 # Radio - from Tissot PKQ1.180917.001.V10.0.17.0.PDHMIXM
 -app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
-etc/permissions/telephonyservice.xml|3a6bc2a522270f968ff5a332b8781c0289e6d1ef
+etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 framework/QtiTelephonyServicelibrary.jar|1df2f89ffb3aedc36e1c2ca7cafbf73a6a06b3fb
 framework/qcrilhook.jar|784df5e6aa9df0127700b9a6f1083440ebfac057
 vendor/bin/ATFWD-daemon|d8e8b853f33411504054eb965b1fb836544daee4
@@ -937,7 +937,7 @@ vendor/bin/qti|28c5da423ba2e0c7873c24e6eca4bb4db7f41fe8
 vendor/bin/rmt_storage|68113b986cef176c9d808fb7fb870ed61d4846bd
 vendor/bin/tftp_server|05a9c0e0e691e534e703bded4a99083d25a26ebb
 vendor/etc/data/dsi_config.xml|2ca4b377905d97c38fdc58765ac9d1da99ef7385
-vendor/etc/data/netmgr_config.xml|35c4f95225b7687258a1272142b6650c2977a2f0
+vendor/etc/data/netmgr_config.xml|5f1e66147d95353b93f25860eb8b0491b259787d
 vendor/lib/libconfigdb.so|3e1d7dd0861867d6f57252a06e8552747a825646
 vendor/lib/libmdmdetect.so|11faf5c9ac48284dfe3a965d8a2309014d81a68d
 vendor/lib/libnetmgr.so|5993b589148e18ef5c54dc90ef39fc2cae2f3665
@@ -1095,7 +1095,7 @@ vendor/bin/thermal-engine|56fe0c449b13cede98a779d848e3a79804feb83f
 vendor/lib64/libthermalioctl.so|1d6587245c7e7148638f14254e2f61f6b5552857
 
 # Time services - from LA.UM.8.6.r1-04000-89xx.0
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|4a37afd1395758d946580af184a738e3c657b1e2
+vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|4a37afd1395758d946580af184a738e3c657b1e2
 vendor/bin/time_daemon|ccac9c14dcb7f2be8622bc64eeb1820ba595d0fd
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|b056a9bc0ab6642369eda0ce3b097b036da2b24e
