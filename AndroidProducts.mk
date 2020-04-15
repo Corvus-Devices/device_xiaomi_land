@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 Android Open-Source Project
+# Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_land.mk
+    $(LOCAL_DIR)/lineage_land.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_land-user \
-    potato_land-userdebug \
-    potato_land-eng
+    lineage_land-user \
+    lineage_land-userdebug \
+    lineage_land-eng
