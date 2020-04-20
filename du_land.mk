@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/land/device.mk)
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit from PixelGapps
-$(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
+#$(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
 
 # Make it official
 DU_BUILD_TYPE := OFFICIAL
